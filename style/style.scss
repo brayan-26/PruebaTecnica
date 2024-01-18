@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 630px;
+  color: #808080;
+
+  .container-body {
+    font-family: "Times New Roman", Times, serif;
+
+    .container-title {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 5%;
+      margin: 0px 0px 10px 0px;
+
+      h1 {
+        margin: 0px;
+      }
+      .logo-pagina {
+        width: 35px;
+      }
+    }
+
+    form {
+
+      input {
+        font-size: 20px;
+      }
+      textarea {
+        font-size: 20px;
+      }
+
+      .button-form-index {
+        color: white;
+        width: 78px;
+        height: 40px;
+        background-color: #0d6efd;
+        border: 0px;
+        border-radius: 10px;
+      }
+
+      .button-form-index:hover {
+        scale: 1.1;
+        transition: 0.5s;
+      }
+      .button-form-index:not(hover) {
+        scale: 1;
+        transition: 0.5s;
+      }
+    }
+  }
+}
+
+// manejamos medidas segun la pantalla 
+@media (max-width: 480px) {
+  .container-body{
+    scale: 0.90;
+  }
+}
+@media (max-width: 420px) {
+  .container-body{
+    scale: 0.73;
+  }
+}
+@media (max-width: 400px) {
+  .container-body{
+    scale: 0.73;
+  }
+}
