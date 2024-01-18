@@ -14,8 +14,7 @@ document.getElementById('enviar').addEventListener('click', function () {
     // Definir la función de devolución de llamada
     xhr.onreadystatechange = function () {
         if (xhr.readyState === 4 && xhr.status === 200) {
-            // Manejar la respuesta del servidor
-            document.getElementById('resultContainer').innerHTML = xhr.responseText;
+            document.getElementById("respuesta").innerHTML = xhr.responseText;
             // Limpiar los campos de entrada después de manejar la respuesta
             document.getElementById('nameInput').value = '';
             document.getElementById('emailInput').value = '';
