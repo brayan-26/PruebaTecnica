@@ -24,8 +24,11 @@ body {
       }
     }
 
-    form {
+    .resultContainer {
+      background-color: red;
+    }
 
+    form {
       input {
         font-size: 20px;
       }
@@ -54,19 +57,19 @@ body {
   }
 }
 
-// manejamos medidas segun la pantalla 
+// manejamos medidas segun la pantalla
 @media (max-width: 480px) {
-  .container-body{
-    scale: 0.90;
+  .container-body {
+    scale: 0.9;
   }
 }
 @media (max-width: 420px) {
-  .container-body{
+  .container-body {
     scale: 0.73;
   }
 }
 @media (max-width: 400px) {
-  .container-body{
+  .container-body {
     scale: 0.73;
   }
 }

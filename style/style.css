@@ -22,6 +22,9 @@ body .container-body .container-title h1 {
 body .container-body .container-title .logo-pagina {
   width: 35px;
 }
+body .container-body .resultContainer {
+  background-color: red;
+}
 body .container-body form input {
   font-size: 20px;
 }
